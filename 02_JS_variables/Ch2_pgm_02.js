@@ -7,7 +7,7 @@ score = 100;
  *
  * 1) Click Run on the JS Bin Console panel.
  *    Nothing will be displayed on the console
- *    but the program will have run,
+ *    but the program will have run,-
  *    creating the score variable.
  *
  * 2) Click in the console, just to the right of the blue prompt >

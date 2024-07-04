@@ -1,6 +1,8 @@
 // Declaring a variable
 
 var score;
+let point;
+var mark;
 
 /* Further Adventures
  *
