@@ -2,13 +2,19 @@
 
 var message;
 
-message = "Hello World!";
+var msg1 = "Hello ";
+var msg2 = "World!";
+message = msg1 + msg2;
 console.log(message);
 
-message = 'Congratulations! Your tweet has won a prize...';
+var msg3 = "Congratulations! ";
+var msg4 = "Your tweet has ";
+var msg5 = "won a prize...";
+message = msg3 + msg4 + msg5;
 console.log(message);
 
-
+message = "good evening";
+console.log(message);
 
 /* Further Adventures
  *
