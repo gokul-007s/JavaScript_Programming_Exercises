@@ -3,16 +3,24 @@
 var book1;
 var book2;
 
+var book1;
+var book2;
+
 book1 = {
-    title : "The Hobbit",
-    author : "J. R. R. Tolkien"
+    title     : "The Hobbit",
+    author    : "J. R. R. Tolkien",
+    seasons : 4
 };
 
 book2 = {
-	title : "Northern Lights",
-	author : "Philip Pullman"
+    title     : "Northern Lights",
+    author    : "Philip Pullman",
+    seasons : 4
+
 };
 
+console.log(book1);
+console.log(book2);
 
 
 /* Further Adventures

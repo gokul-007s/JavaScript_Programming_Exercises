@@ -6,6 +6,12 @@ book = {
     title : "The Hobbit"
 };
 
+var book2 = {
+    title : "The Lord of the Rings"
+};
+
+console.log(book);
+console.log(book2);
 
 
 /* Further Adventures

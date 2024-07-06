@@ -3,9 +3,10 @@
 var player1;
 
 player1 = {
-    name: "Max",
-    attempted: 0,
-    correct: 0
+    name: "Alex",
+    attempted: 5,
+    correct: 1,
+    score: 100
 };
 
 player1.attempted = 1;

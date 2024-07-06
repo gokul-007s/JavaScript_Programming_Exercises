@@ -10,6 +10,19 @@ console.log(bookTitle + " by " + bookAuthor);
 
 
 
+var secondBookTitle = "Harry potter";
+var secondBookAuthor = "jk rowling";
+
+console.log(secondBookTitle + " by " + secondBookAuthor);
+
+
+
+var thirdBookTitle = "Harry potter2";
+var thirdBookAuthor = "jk rowling2";
+
+console.log(thirdBookTitle + " by " + thirdBookAuthor);
+
+
 /* Further Adventures
  *
  * 1) Declare variables for a second book
