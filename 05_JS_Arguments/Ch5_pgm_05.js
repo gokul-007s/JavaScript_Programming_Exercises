@@ -13,7 +13,24 @@ square(-2);
 square(1111);
 square(0.5);
 
+var cube
+cube = function (numberTocube) {
+  var result;
+  result = numberTocube * numberTocube* numberTocube;
+  console.log(numberTocube + " * " + numberTocube + " * " + numberTocube +  " = " + result);
+};
+cube(9)
+cube(18)
+cube(73)
 
+var squareRoot = function (squareRoot) {
+  var result;
+  result = Math.sqrt(squareRoot);
+  console.log("the squareRoot of " + squareRoot + " is" + result);
+};
+squareRoot(9);
+squareRoot(18);
+squareRoot(21);
 
 /* Further Adventures
  *

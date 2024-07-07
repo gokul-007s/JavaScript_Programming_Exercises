@@ -4,14 +4,15 @@ var msg;
 var showMessage;
 
 msg = "It's full of stars!";
+var newMsg = "moons!";
 
 showMessage = function () {
-	console.log(message);
+    console.log(msg);
+    console.log(newMsg);
+    console.log(msg + newMsg);
 };
 
 showMessage();
-
-
 
 /* Further Adventures
  *
