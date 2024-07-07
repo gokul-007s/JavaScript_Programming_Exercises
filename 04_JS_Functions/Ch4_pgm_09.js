@@ -9,8 +9,16 @@ showMovieInfo = function () {
   console.log("Directors: " + movie.directors);
   console.log("------------------------------");
 };
-
-
+var movie;
+showMovieInfo();
+movie = {};
+showMovieInfo();
+movie = {
+  title: "The Shawshank Redemption",
+  actors: "Tim Robbins, Morgan Freeman",
+  directors: "Frank Darabont",
+};
+showMovieInfo();
 
 /* Further Adventures
  *

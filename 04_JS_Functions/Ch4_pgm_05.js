@@ -1,5 +1,9 @@
 // Two more function definitions and assignments
 
+var number1 = 5;
+var number2 = 10;
+var result;
+
 var findTotal;
 var displayMenu;
 
@@ -14,6 +18,9 @@ displayMenu = function () {
 	console.log("(9) Quit");
 };
 
+findTotal();
+console.log("The result is: " + result);
+displayMenu();
 
 
 /* Further Adventures

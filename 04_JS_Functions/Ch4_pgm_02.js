@@ -1,8 +1,8 @@
 // Displaying information from similar objects
-
 var movie1;
 var movie2;
 var movie3;
+var movie4;
 
 movie1 = {
   title: "Inside Out",
@@ -22,24 +22,83 @@ movie3 = {
   directors: "J.J.Abrams"
 };
 
+movie4 = {
+  title: "The Avengers",
+  actors: "Robert Downey Jr., Chris Hemsworth, Mark Ruffalo",
+  directors: "Joss Whedon"
+};
+
 console.log("Movie information for " + movie1.title);
 console.log("------------------------------");
 console.log("Actors: " + movie1.actors);
 console.log("Directors: " + movie1.directors);
 console.log("------------------------------");
+console.log("");
 
 console.log("Movie information for " + movie2.title);
 console.log("------------------------------");
 console.log("Actors: " + movie2.actors);
 console.log("Directors: " + movie2.directors);
 console.log("------------------------------");
+console.log("");
 
 console.log("Movie information for " + movie3.title);
 console.log("------------------------------");
 console.log("Actors: " + movie3.actors);
 console.log("Directors: " + movie3.directors);
 console.log("------------------------------");
+console.log("");
 
+console.log("Movie information for " + movie4.title);
+console.log("------------------------------");
+console.log("Actors: " + movie4.actors);
+console.log("Directors: " + movie4.directors);
+console.log("------------------------------");
+console.log("");
+
+
+var event1;
+var event2;
+var event3;
+
+event1 = {
+  title: "Birthday Party",
+  date: "2022-07-15",
+  location: "Home"
+};
+
+event2 = {
+  title: "Wedding",
+  date: "2022-08-20",
+  location: "Church"
+};
+
+event3 = {
+  title: "Conference",
+  date: "2022-09-01",
+  location: "Convention Center"
+};
+
+console.log("Event information for " + event1.title);
+console.log("------------------------------");
+console.log("Date: " + event1.date);
+console.log("Location: " + event1.location);
+console.log("------------------------------");
+console.log("");
+
+console.log("Event information for " + event2.title);
+console.log("------------------------------");
+console.log("Date: " + event2.date);
+console.log("Location: " + event2.location);
+console.log("------------------------------");
+console.log("");
+
+console.log("Event information for " + event3.title);
+console.log("------------------------------");
+console.log("Date: " + event3.date);
+console.log("Location: " + event3.location);
+console.log("------------------------------");
+console.log("");
 
 
 /* Further Adventures

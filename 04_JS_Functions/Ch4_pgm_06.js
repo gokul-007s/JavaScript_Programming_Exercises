@@ -9,7 +9,11 @@ sayHello = function () {
 sayHello();
 sayHello();
 sayHello();
-
+function line() {
+	console.log('hellow \n world');
+	
+}
+line()
 
 
 /* Further Adventures

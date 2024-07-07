@@ -1,5 +1,4 @@
 // Calling the showMovieInfo function
-
 var movie1;
 var showMovieInfo;
 var movie;
@@ -19,7 +18,21 @@ showMovieInfo = function () {
 };
 
 movie = movie1;
+showMovieInfo();
 
+movie = movie2;
+showMovieInfo();
+
+var movie2 = {};
+movie = movie2;
+showMovieInfo();
+
+movie2 = {
+    title: "The Shawshank Redemption",
+    actors: "Tim Robbins, Morgan Freeman",
+    directors: "Frank Darabont"
+};
+movie = movie2;
 showMovieInfo();
 
 

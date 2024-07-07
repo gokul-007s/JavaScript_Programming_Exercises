@@ -1,46 +1,46 @@
 // Using the same function with multiple objects
 
-var movie1;
-var movie2;
-var movie3;
-var movie;
-var showMovieInfo;
+var quiz1;
+var quiz2;
+var quiz3;
+var quiz;
+var showQuiz;
 
-movie1 = {
-    title: "Inside Out",
-    actors: "Amy Poehler, Bill Hader",
-    directors: "Pete Doctor, Ronaldo Del Carmen"
+quiz1 = {
+    question: "What is the capital of France?",
+    options: "A) Berlin, B) Paris, C) London, D) Rome",
+    answer: "B) Paris"
 };
 
-movie2 = {
-    title: "Spectre",
-    actors: "Daniel Craig, Christoph Waltz",
-    directors: "Sam Mendes"
+quiz2 = {
+    question: "What is the largest planet in our solar system?",
+    options: "A) Earth, B) Saturn, C) Jupiter, D) Uranus",
+    answer: "C) Jupiter"
 };
 
-movie3 = {
-    title: "Star Wars: Episode VII - The Force Awakens",
-    actors: "Harrison Ford, Mark Hamill, Carrie Fisher",
-    directors: "J.J.Abrams"
+quiz3 = {
+    question: "What is the smallest country in the world?",
+    options: "A) Vatican City, B) Monaco, C) Nauru, D) Tuvalu",
+    answer: "A) Vatican City"
 };
 
-showMovieInfo = function () {
-    console.log("Movie information for " + movie.title);
+showQuiz = function () {
+    console.log("Quiz question:");
     console.log("------------------------------");
-    console.log("Actors: " + movie.actors);
-    console.log("Directors: " + movie.directors);
+    console.log(quiz.question);
+    console.log(quiz.options);
+    console.log("Answer: " + quiz.answer);
     console.log("------------------------------");
 };
 
-movie = movie1;
-showMovieInfo();
+quiz = quiz1;
+showQuiz();
 
-movie = movie2;
-showMovieInfo();
+quiz = quiz2;
+showQuiz();
 
-movie = movie3;
-showMovieInfo();
-
+quiz = quiz3;
+showQuiz();
 
 
 /* Further Adventures

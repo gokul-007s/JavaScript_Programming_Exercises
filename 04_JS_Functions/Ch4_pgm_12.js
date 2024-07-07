@@ -1,5 +1,4 @@
 // Using functions to add and display tax
-
 var sale1;
 var sale2;
 var sale3;
@@ -12,8 +11,8 @@ sale2 = { price: 40, taxRate: 10 };
 sale3 = { price: 120, taxRate: 20 };
 
 calculateTax = function () {
-	sale.tax = sale.price * sale.taxRate / 100;
-	sale.total = sale.price + sale.tax;
+  sale.tax = sale.price * sale.taxRate / 100;
+  sale.total = sale.price + sale.tax;
 };
 
 displaySale = function () {
@@ -33,7 +32,6 @@ displaySale();
 sale = sale3;
 calculateTax();
 displaySale();
-
 
 
 /* Further Adventures
