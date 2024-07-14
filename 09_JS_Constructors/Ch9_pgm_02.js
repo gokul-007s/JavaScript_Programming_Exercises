@@ -1,5 +1,3 @@
-// Adding methods to our constructed object
-
 var buildPlanet = function (name, position, type) {
     var planet = {};
   
@@ -23,16 +21,12 @@ var planet1 = buildPlanet(
     "Gas Giant"
 );
 
+var planet2 = buildPlanet(
+    "Earth",
+    3,
+    "The world"
+)
+
+
 planet1.showPlanet();
-
-
-
-/* Further Adventures
- *
- * 1) Create a second planet.
- *    Use the buildPlanet function.
- *
- * 2) Call the showPlanet method on your
- *    new planet.
- *
- */
+planet2.showPlanet();

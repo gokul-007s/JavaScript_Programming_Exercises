@@ -1,5 +1,3 @@
-// A Planet constructor
-
 var Planet = function (name, position, type) {
     this.name = name;
     this.position = position;
@@ -13,18 +11,11 @@ var Planet = function (name, position, type) {
 };
 
 var planet = new Planet( "Jupiter", 5, "Gas Giant" );
+var planet1 = new Planet(
+    "Earth",
+    3,
+    "The World"
+);
 
 planet.showPlanet();
-
-
-
-/* Further Adventures
- *
- * 1) Use the Planet constructor function
- *    to create a second planet.
- *    Don't forget the 'new' keyword.
- *
- * 2) Call the showPlanet method on your
- *    newly created planet.
- *
- */
+planet1.showPlanet();
