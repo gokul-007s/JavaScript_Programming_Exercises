@@ -1,6 +1,32 @@
-// Use the countries array to display all the countries. 
+function isPrime(num) {
+    if (num <= 1) return false;
+    if (num === 2) return true;
+    if (num % 2 === 0) return false;
+    for (let i = 3; i <= Math.sqrt(num); i += 2) {
+        if (num % i === 0) return false;
+    }
+    return true;
+}
 
 
-//See the design
+const container = document.getElementById('number-container');
 
-// https://github.com/Asabeneh/30-Days-Of-JavaScript/raw/master/images/projects/dom_min_project_countries_aray_day_2.2.png
+
+for (let i = 1; i <= 100; i++) {
+    const numberDiv = document.createElement('div');
+    numberDiv.textContent = i;
+    numberDiv.classList.add('number');
+
+    if (i % 2 === 0) {
+        numberDiv.classList.add('even');
+    } else {
+        numberDiv.classList.add('odd');
+    }
+
+
+    if (isPrime(i)) {
+        numberDiv.classList.add('prime');
+    }
+
+    container.appendChild(numberDiv);
+}
