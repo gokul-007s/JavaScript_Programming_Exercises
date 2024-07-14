@@ -1,5 +1,3 @@
-// Getting a string for a player’s information
-
 var getPlayerName;
 var getPlayerHealth;
 var getPlayerPlace;
@@ -36,21 +34,4 @@ getPlayerInfo = function (playerName, playerPlace, playerHealth) {
 };
 
 console.log(getPlayerInfo("Kandra", "The Dungeon of Doom", 50));
-
-
-
-
-/* Further Adventures
- *
- * 1) Add a second call to getPlayerInfo with
- *    different player information. Log the
- *    returned string to the console.
- *
- * 2) Call getPlayerInfo at the console prompt.
- *
- * 3) What happens if you call getPlayerInfo
- *    without any arguments?
- *
- *    > getPlayerInfo()
- *
- */
+console.log(getPlayerInfo("Daniel", "The Bath", 40));

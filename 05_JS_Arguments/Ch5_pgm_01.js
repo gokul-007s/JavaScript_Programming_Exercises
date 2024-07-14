@@ -1,16 +1,15 @@
 // Relying on a variable outside of the function
 
-var msg;
+var message;
 var showMessage;
 
-msg = "It's full of stairs!";
+message = "welcome to the moon";
 
 showMessage = function () {
-	console.log(msg);
+    console.log(msg);
 };
 
 showMessage();
-
 
 
 /* Further Adventures

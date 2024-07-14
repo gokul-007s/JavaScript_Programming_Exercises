@@ -1,15 +1,18 @@
 // Breaking a function by changing a variable name
 
 var msg;
+var msg2;
+var msg3;
 var showMessage;
 
 msg = "It's full of stars!";
-var newMsg = "moons!";
+msg2 = "And there is a beautiful moon"
+msg3 = msg.concat(msg2);
 
 showMessage = function () {
-    console.log(msg);
-    console.log(newMsg);
-    console.log(msg + newMsg);
+    console.log(msg); 
+    console.log(msg2);
+    console.log(msg3);
 };
 
 showMessage();
